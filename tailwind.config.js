@@ -7,95 +7,36 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				/** primary and secondary
-				 * The application's main colors
-				 * used for:
-				 * - buttons, links and highlights
-				 */
-				primary: {
-					50: '#e3f2f9',
-					100: '#c8e6f6',
-					200: '#93ccef',
-					300: '#63addb',
-					400: '#2e8dc9',
-					500: '#006db7',
-					600: '#00559a',
-					700: '#00447c',
-					800: '#00335d',
-					900: '#00213e',
+				blue: {
+					500: '#115D8C',
 				},
-				secondary: {
-					50: '#fef2e6',
-					100: '#fde7c4',
-					200: '#fcc489',
-					300: '#f59f4d',
-					400: '#f08212',
-					500: '#d86e10',
-					600: '#b6560b',
-					700: '#924208',
-					800: '#6e2f05',
-					900: '#4b1c03',
+				green: {
+					500: '#51B853',
 				},
-				/** success, error and warnings
-				 * Colors for feedback states such as success, error and warnings.
-				 */
-				success: {
-					50: '#e3fcec',
-					100: '#c4f6d3',
-					200: '#8febb1',
-					300: '#54dd88',
-					400: '#22c85f',
-					500: '#1eae52',
-					600: '#198b41',
-					700: '#146b31',
-					800: '#0f4b20',
-					900: '#0a2b10',
+				orange: {
+					100: '#FFA585'
 				},
-				error: {
-					50: '#fde8e8',
-					100: '#fbd3d3',
-					200: '#f7a7a7',
-					300: '#f17878',
-					400: '#ed4b4b',
-					500: '#e02e2e',
-					600: '#b62424',
-					700: '#8e1c1c',
-					800: '#661414',
-					900: '#3d0b0b',
+				red: {
+					500: '#DE3838'
 				},
-				warning: {
-					50: '#fff6e0',
-					100: '#ffe6b8',
-					200: '#ffcf73',
-					300: '#ffb830',
-					400: '#ff9c00',
-					500: '#db7f00',
-					600: '#b26100',
-					700: '#8a4b00',
-					800: '#623500',
-					900: '#3a1e00',
+				white: {
+					100: '#ffffff',
+					200: '#f3f5f6',
+					300: '#f5f5fa',
+					400: '#e9e9f0',
 				},
-				/** neutral
-				 * Scaled for different uses (light to dark)
-				 * used for:
-				 * - text, borders and neutral backgrounds
-				 */
-				neutral: {
-					1: '#ffffff',
-					50: '#f7f7f7',
-					100: '#ededed',
-					200: '#d6d6d6',
-					300: '#bcbcbc',
-					400: '#8f8f8f',
-					500: '#666666',
-					600: '#4d4d4d',
-					700: '#3d3d3d',
-					800: '#2e2e2e',
-					900: '#1f1f1f',
+				gray: {
+					100: '#617480',
+					300: '#A8A8B3',
+					400: '#737380',
+					500: '#5D5D6D',
+					600: '#41414D',
+					900: '#09090A'
 				},
 			},
 			fontFamily: {
-				sans: ['Nunito', ...defaultTheme.fontFamily.sans],
+				sans: ['Saira', ...defaultTheme.fontFamily.sans],
+				sairaStencilOne: ['Saira Stencil One', ...defaultTheme.fontFamily.sans],
 			},
 			fontSize: {
 				xs: '1rem',
@@ -127,7 +68,7 @@ export default {
 				24: '2.4rem',
 				32: '3.2rem',
 				40: '4rem',
-				48: '4.8rem',
+				44: '4.4rem',
 				// For larger layouts, spacing between sections and grids.
 				64: '6.4rem',
 				80: '8rem',
