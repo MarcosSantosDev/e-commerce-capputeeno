@@ -2,7 +2,7 @@ import { FallbackProps } from 'react-error-boundary';
 
 import { Button } from '@/components/ui';
 
-const ErrorFallback = ({ resetErrorBoundary }: FallbackProps) => {
+export const ErrorFallback = ({ resetErrorBoundary }: FallbackProps) => {
 	const contactSupport = () => {
 		//
 	};
@@ -25,15 +25,13 @@ const ErrorFallback = ({ resetErrorBoundary }: FallbackProps) => {
 				<div className="mt-24 flex justify-end gap-12">
 					<Button
 						onClick={resetErrorBoundary}
-						variant="primary"
-						icon="repeat"
+						variant="default"
 					>
 						Tentar novamente
 					</Button>
 					<Button
 						onClick={contactSupport}
 						variant="secondary"
-						icon="message-square-text"
 					>
 						Suporte
 					</Button>
@@ -42,5 +40,3 @@ const ErrorFallback = ({ resetErrorBoundary }: FallbackProps) => {
 		</div>
 	);
 };
-
-export default ErrorFallback;

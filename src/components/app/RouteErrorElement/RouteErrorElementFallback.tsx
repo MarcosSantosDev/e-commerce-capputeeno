@@ -6,7 +6,7 @@ type RouteErrorElementFallbackProps = {
 	onBackToTop: () => void;
 };
 
-const RouteErrorElementFallback = ({ title, subtitle, onBackToTop }: RouteErrorElementFallbackProps) => (
+export const RouteErrorElementFallback = ({ title, subtitle, onBackToTop }: RouteErrorElementFallbackProps) => (
 	<div
 		role="alert"
 		className="flex h-screen w-full flex-col items-center justify-center gap-8 p-8 md:flex-row"
@@ -25,13 +25,10 @@ const RouteErrorElementFallback = ({ title, subtitle, onBackToTop }: RouteErrorE
 				<Button
 					onClick={onBackToTop}
 					variant="secondary"
-					icon="move-left"
 				>
-					Back to top
+					Voltar ao início
 				</Button>
 			</div>
 		</div>
 	</div>
 );
-
-export default RouteErrorElementFallback;

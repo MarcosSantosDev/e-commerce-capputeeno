@@ -1,17 +1,17 @@
-import { isRouteErrorResponse, useNavigate, useRouteError } from 'react-router-dom';
+import { isRouteErrorResponse, useNavigate, useRouteError } from 'react-router';
 
 import routePaths from '@/router/config/routePaths';
 
-import RouteErrorElementFallback from './RouteErrorElementFallback';
+import { RouteErrorElementFallback } from './RouteErrorElementFallback';
 
-const notFoundMessage = "Sorry, we couldn't find the page you tried to access";
+const notFoundMessage = 'Desculpe, não foi possível encontrar a página que você tentou acessar';
 
-const RouteErrorElement = () => {
+export const RouteErrorElement = () => {
 	const navigate = useNavigate();
 	const error = useRouteError();
 
 	const handleBackToTop = () => {
-		navigate(routePaths.ROOT);
+		navigate(routePaths.PRODUCTS);
 	};
 
 	if (isRouteErrorResponse(error)) {
@@ -29,5 +29,3 @@ const RouteErrorElement = () => {
 
 	throw error;
 };
-
-export default RouteErrorElement;
