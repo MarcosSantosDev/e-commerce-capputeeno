@@ -1,7 +1,7 @@
 const ExamplePage = () => {
 	return (
-		<div>
-			<p className="text-lg">ExamplePage 01</p>
+		<div className="h-full w-full">
+			<p className="text-lg-">ExamplePage 01</p>
 		</div>
 	);
 };

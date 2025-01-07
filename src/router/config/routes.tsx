@@ -3,6 +3,7 @@ import * as React from 'react';
 import { RouteObject } from 'react-router';
 
 import { RouteErrorElement } from '@/components/app/RouteErrorElement/RouteErrorElement';
+import PublicLayout from '@/Layout/PublicLayout';
 
 import routePaths from './routePaths';
 
@@ -16,6 +17,7 @@ export const routes: RouteObject[] = [
 		errorElement: <RouteErrorElement />,
 		id: 'ROOT',
 		path: routePaths.PRODUCTS,
+		element: <PublicLayout />,
 		children: [
 			{
 				id: 'PRODUCTS',
