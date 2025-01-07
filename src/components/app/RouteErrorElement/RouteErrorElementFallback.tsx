@@ -18,13 +18,14 @@ export const RouteErrorElementFallback = ({ title, subtitle, onBackToTop }: Rout
 		/>
 
 		<div className="mx-64 flex flex-col justify-end md:mx-0">
-			<h1 className="text-xxl text-primary-400">Algo deu errado.</h1>
-			<h1 className="text-xxl text-primary-400">{title}</h1>
+			<h1 className="text-xxl text-gray-600">Algo deu errado.</h1>
+			<h1 className="text-xxl text-gray-500">{title}</h1>
 			<p className="text-xl text-neutral-400">{subtitle}</p>
 			<div className="mt-24 flex justify-end">
 				<Button
 					onClick={onBackToTop}
-					variant="secondary"
+					variant="outlined"
+					icon="move-left"
 				>
 					Voltar ao início
 				</Button>
