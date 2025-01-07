@@ -75,6 +75,11 @@ export default {
 				100: '10rem',
 				120: '12rem',
 				160: '16rem',
+				200: '20rem',
+				280: '28rem',
+			},
+			width: {
+				'container': '80%'
 			},
 			borderRadius: {
 				sm: '4px',
