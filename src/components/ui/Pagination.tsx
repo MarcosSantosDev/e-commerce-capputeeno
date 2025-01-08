@@ -59,6 +59,7 @@ export const PaginationPrevious = (props: React.ButtonHTMLAttributes<HTMLButtonE
 		aria-label="Go to previous page"
 		size="icon"
 		icon="chevron-left"
+		name="previous"
 		{...props}
 	/>
 );
@@ -69,6 +70,7 @@ export const PaginationNext = (props: React.ButtonHTMLAttributes<HTMLButtonEleme
 		aria-label="Go to next page"
 		size="icon"
 		icon="chevron-right"
+		name="next"
 		{...props}
 	/>
 );

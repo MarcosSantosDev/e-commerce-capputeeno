@@ -27,10 +27,16 @@ export const Pagination = ({ totalPages, currentPage, goToPage, nextPage, previo
 				})}
 
 				<PaginationUI.PaginationItem className="ml-4">
-					<PaginationUI.PaginationPrevious onClick={previousPage} />
+					<PaginationUI.PaginationPrevious
+						disabled={currentPage === 1}
+						onClick={previousPage}
+					/>
 				</PaginationUI.PaginationItem>
 				<PaginationUI.PaginationItem className="ml-2">
-					<PaginationUI.PaginationNext onClick={nextPage} />
+					<PaginationUI.PaginationNext
+						disabled={currentPage === totalPages}
+						onClick={nextPage}
+					/>
 				</PaginationUI.PaginationItem>
 			</PaginationUI.PaginationContent>
 		</PaginationUI.Pagination>
