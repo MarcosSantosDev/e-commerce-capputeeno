@@ -7,7 +7,7 @@ import PublicLayout from '@/Layout/PublicLayout';
 
 import routePaths from './routePaths';
 
-const ExamplePage1 = React.lazy(() => import('@/pages/ExamplePage1'));
+const StoreCatalog = React.lazy(() => import('@/pages/StoreCatalog'));
 const ExamplePage2 = React.lazy(() => import('@/pages/ExamplePage2'));
 const ExamplePage3 = React.lazy(() => import('@/pages/ExamplePage3'));
 const ExamplePage4 = React.lazy(() => import('@/pages/ExamplePage4'));
@@ -22,7 +22,7 @@ export const routes: RouteObject[] = [
 			{
 				id: 'PRODUCTS',
 				index: true,
-				element: <ExamplePage1 />,
+				element: <StoreCatalog />,
 			},
 			{
 				id: 'PRODUCT_ID',

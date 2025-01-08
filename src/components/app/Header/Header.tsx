@@ -3,7 +3,7 @@ import { Icon } from '@/components/ui/Icon/Icon';
 
 const Header = () => {
 	return (
-		<header className="h-80 w-full bg-white-100">
+		<header className="h-header w-full bg-white-100">
 			<div className="mx-auto flex h-full w-container items-center justify-between">
 				<h2 className="font-sairaStencilOne text-xl text-gray-500">capputeeno</h2>
 

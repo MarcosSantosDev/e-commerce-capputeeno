@@ -4,12 +4,10 @@ import Header from '@/components/app/Header/Header';
 
 const PublicLayout = () => {
 	return (
-		<div className="grid h-screen w-screen grid-cols-1 grid-rows-[auto_1fr]">
+		<div className="h-screen w-screen bg-white-200">
 			<Header />
-			<div className="h-full w-full bg-white-200">
-				<div className="mx-auto h-full w-container">
-					<Outlet />
-				</div>
+			<div className="h-content mx-auto w-container">
+				<Outlet />
 			</div>
 		</div>
 	);

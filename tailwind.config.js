@@ -83,6 +83,10 @@ export default {
 			width: {
 				'container': '80%'
 			},
+			height: {
+				'header': '80px',
+				'content': 'calc(100vh - 80px)'
+			},
 			borderRadius: {
 				sm: '4px',
 				md: '8px',
