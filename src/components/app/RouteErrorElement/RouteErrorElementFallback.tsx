@@ -24,7 +24,7 @@ export const RouteErrorElementFallback = ({ title, subtitle, onBackToTop }: Rout
 			<div className="mt-24 flex justify-end">
 				<Button
 					onClick={onBackToTop}
-					variant="outlined"
+					variant="ghost"
 					icon="move-left"
 				>
 					Voltar ao início

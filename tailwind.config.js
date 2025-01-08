@@ -21,9 +21,10 @@ export default {
 				},
 				white: {
 					100: '#ffffff',
-					200: '#f3f5f6',
-					300: '#f5f5fa',
-					400: '#e9e9f0',
+					200: '#f0f0f5',
+					300: '#f3f5f6',
+					400: '#f5f5fa',
+					500: '#e9e9f0',
 				},
 				gray: {
 					100: '#617480',
@@ -67,6 +68,7 @@ export default {
 				20: '2rem',
 				24: '2.4rem',
 				32: '3.2rem',
+				36: '3.6rem',
 				40: '4rem',
 				44: '4.4rem',
 				// For larger layouts, spacing between sections and grids.

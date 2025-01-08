@@ -3,8 +3,8 @@ import { Icon } from '@/components/ui/Icon/Icon';
 
 const Header = () => {
 	return (
-		<header className="bg-white-100 h-80 w-full">
-			<div className="w-container mx-auto flex h-full items-center justify-between">
+		<header className="h-80 w-full bg-white-100">
+			<div className="mx-auto flex h-full w-container items-center justify-between">
 				<h2 className="font-sairaStencilOne text-xl text-gray-500">capputeeno</h2>
 
 				<div className="flex items-center justify-end gap-40">
@@ -22,7 +22,7 @@ const Header = () => {
 							name="shopping-bag"
 							className="group-hover:fill-white-400 group-focus:fill-white-400"
 						/>
-						<span className="text-white-100 absolute -bottom-3 -right-3 h-16 w-16 rounded-full bg-red-500 text-xs">
+						<span className="absolute -bottom-3 -right-3 h-16 w-16 rounded-full bg-red-500 text-xs text-white-100">
 							0
 						</span>
 					</button>

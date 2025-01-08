@@ -32,7 +32,7 @@ export const ErrorFallback = ({ resetErrorBoundary }: FallbackProps) => {
 					</Button>
 					<Button
 						onClick={contactSupport}
-						variant="outlined"
+						variant="ghost"
 						icon="life-buoy"
 					>
 						Suporte

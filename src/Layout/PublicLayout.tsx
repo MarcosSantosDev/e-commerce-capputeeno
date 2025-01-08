@@ -6,8 +6,8 @@ const PublicLayout = () => {
 	return (
 		<div className="grid h-screen w-screen grid-cols-1 grid-rows-[auto_1fr]">
 			<Header />
-			<div className="bg-white-200 h-full w-full">
-				<div className="w-container mx-auto h-full">
+			<div className="h-full w-full bg-white-200">
+				<div className="mx-auto h-full w-container">
 					<Outlet />
 				</div>
 			</div>
